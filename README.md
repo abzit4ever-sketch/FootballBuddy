@@ -3,6 +3,9 @@
 
 ![Player Profile with Tactician Radar](screenshots/player-profile.png)
 
+
+
+
 ![Team Profile with Squad Roster](screenshots/team-profile.png)
 
 A premium football analytics platform delivering live scores, league standings,
