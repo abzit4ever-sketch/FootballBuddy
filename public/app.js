@@ -1,5 +1,5 @@
 /**
- * ApexPitch - Client Application Logic (Scraped Real-Time Data & Keyless AI)
+ * FootballBuddy - Client Application Logic (Scraped Real-Time Data & Keyless AI)
  */
 
 // ==========================================================================
@@ -24,7 +24,7 @@ const API = {
     }
 
     try {
-      let prompt = `You are ApexPitch's Senior AI Football Scout and Tactical Analyst. 
+      let prompt = `You are FootballBuddy's Senior AI Football Scout and Tactical Analyst. 
 You write detailed, expert-level football reports using opta-style analytics terminology.
 
 `;
@@ -227,7 +227,7 @@ const State = {
   currentContext: null, // Stores currently active page details for the AI Analyst
   selectedSeasons: {}, // Stores selected season for each leagueId
   aiChatHistory: [
-    { role: 'assistant', content: '👋 Welcome to **ApexPitch AI Tactical Hub**. Ask me for scout reports, formation analyses, or team comparisons! I am connected to your active view context (e.g. current team roster or standings table) and run completely keyless via Puter.' }
+    { role: 'assistant', content: '👋 Welcome to **FootballBuddy AI Tactical Hub**. Ask me for scout reports, formation analyses, or team comparisons! I am connected to your active view context (e.g. current team roster or standings table) and run completely keyless via Puter.' }
   ]
 };
 
