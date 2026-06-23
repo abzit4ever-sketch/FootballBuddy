@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ApexPitch | Premium Football Analytics Platform</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Keyless AI Chat Client -->
+  <script src="https://js.puter.com/v2/"></script>
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay" class="loading-overlay hidden">
+    <div class="loader"></div>
+  </div>
+
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="logo-icon">
+          <i class="fa-solid fa-circle-nodes"></i>
+        </div>
+        <span class="logo-text">APEX<span>PITCH</span></span>
+      </div>
+
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <a href="#dashboard" class="nav-link active" id="nav-dashboard">
+              <i class="fa-solid fa-chart-line"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#leagues" class="nav-link" id="nav-leagues">
+              <i class="fa-solid fa-trophy"></i>
+              <span>Leagues</span>
+            </a>
+          </li>
+          <li>
+            <a href="#live" class="nav-link" id="nav-live">
+              <i class="fa-solid fa-satellite-dish"></i>
+              <span>Live Scores</span>
+            </a>
+          </li>
+          <li>
+            <a href="#ai-analyst" class="nav-link" id="nav-ai-analyst">
+              <i class="fa-solid fa-brain"></i>
+              <span>AI Analyst</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <div class="api-status">
+          <span class="status-indicator online"></span>
+          <span>Live Scraper Connected</span>
+        </div>
+        <div class="profile-card">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Scout Profile" class="profile-img">
+          <div class="profile-info">
+            <span class="profile-name">Sarah Jenkins</span>
+            <span class="profile-role">Senior Scout</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Header Bar -->
+      <header class="top-header">
+        <div class="search-container">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="global-search" placeholder="Search teams or players (e.g., Arsenal, Haaland...)" autocomplete="off">
+            <button id="clear-search" class="clear-search-btn hidden"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <!-- Instant Search Suggestions -->
+          <div id="search-suggestions" class="search-suggestions hidden"></div>
+        </div>
+
+        <div class="header-actions">
+          <button id="theme-toggle" class="header-btn" title="Toggle Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <div class="notification-badge">
+            <button class="header-btn"><i class="fa-regular fa-bell"></i></button>
+            <span class="badge-dot"></span>
+          </div>
+          <div class="platform-badge">PRO</div>
+        </div>
+      </header>
+
+      <!-- View Containers -->
+      <div id="view-content" class="view-content-wrapper">
+        <!-- Views will be dynamically injected here by app.js -->
+      </div>
+    </main>
+  </div>
+
+  <!-- Client-side Javascript -->
+  <script src="app.js"></script>
+</body>
+</html>
