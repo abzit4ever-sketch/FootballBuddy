@@ -5,9 +5,6 @@
 
 
 
-
-![Team Profile with Squad Roster](screenshots/team-profile.png)
-
 A premium football analytics platform delivering live scores, league standings,
 team rosters, player bios, and AI-driven match analysis — all without relying
 on paid APIs.
