@@ -1,9 +1,13 @@
 ﻿# FootballBuddy- Football Statistics Platform
 ## Screenshots
 
-![Player Profile with Tactician Radar](screenshots/player-profile.png)
+### Player Profile Analysis
+Explore detailed player statistics with interactive tactical radar visualization showing key performance indicators.
 
-![Team Profile with Squad Roster](screenshots/team-profile.png)
+![Player Profile Analysis](screenshots/player-profile.png)
+
+### Team Profile & Squad Roster
+View complete team information including club details, coaching staff, and full squad roster with player positions.
 
 A premium football analytics platform delivering live scores, league standings,
 team rosters, player bios, and AI-driven match analysis — all without relying
