@@ -1,5 +1,11 @@
 ﻿# FootballBuddy- Football Statistics Platform
+## Screenshots
 
+### Player Profile - Ousmane Dembélé
+![Player Profile with Tactician Radar](screenshots/player-profile.png)
+
+### Team Profile - France
+![Team Profile with Squad Roster](screenshots/team-profile.png)
 
 A premium football analytics platform delivering live scores, league standings,
 team rosters, player bios, and AI-driven match analysis — all without relying
