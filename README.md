@@ -18,4 +18,5 @@ on paid APIs.
 - **Backend:** Node.js, Express
 - **Frontend:** Vanilla JS, HTML, CSS
 - **Data Sources:** FotMob (scraped), Wikipedia REST API
+
 Website link - https://footballbuddy-yvn8.onrender.com
