@@ -9,6 +9,9 @@ Explore detailed player statistics with interactive tactical radar visualization
 ### Team Profile & Squad Roster
 View complete team information including club details, coaching staff, and full squad roster with player positions.
 
+![Team Profile & Squad Roster](screenshots/team-profile.png)
+
+
 A premium football analytics platform delivering live scores, league standings,
 team rosters, player bios, and AI-driven match analysis — all without relying
 on paid APIs.
